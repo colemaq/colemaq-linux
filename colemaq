@@ -9,7 +9,7 @@ xkb_symbols "basic" {
 
     key <AD01> {[ semicolon, colon     ]};
     key <AD02> {[ w,         W         ]};
-    key <AD03> {[ g,         G         ]};
+    key <AD03> {[ f,         F         ]};
     key <AD04> {[ p,         P         ]};
     key <AD05> {[ b,         B         ]};
     key <AD06> {[ j,         J         ]};
@@ -22,7 +22,7 @@ xkb_symbols "basic" {
     key <AC02> {[ r,         R         ]};
     key <AC03> {[ s,         S         ]};
     key <AC04> {[ t,         T         ]};
-    key <AC05> {[ f,         F         ]};
+    key <AC05> {[ g,         G         ]};
     key <AC06> {[ m,         M         ]};
     key <AC07> {[ n,         N         ]};
     key <AC08> {[ e,         E         ]};
@@ -54,8 +54,8 @@ xkb_symbols "f" {
     include "colemaq(basic)"
     name[Group1] = "ColemaQ-F";
 
-    key <AD03> {[ f,         F         ]};
-    key <AC05> {[ g,         G         ]};
+    key <AD03> {[ g,         G         ]};
+    key <AC05> {[ f,         F         ]};
 };
 
 // Indonesian variant
@@ -136,8 +136,8 @@ xkb_symbols "f_iso" {
     include "colemaq(iso)"
     name[Group1] = "ColemaQ-F_iso";
 
-    key <AD03> {[ f,         F         ]};
-    key <AC05> {[ g,         G         ]};
+    key <AD03> {[ g,         G         ]};
+    key <AC05> {[ f,         F         ]};
 };
 
 // Indonesian variant (ISO)
