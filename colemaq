@@ -37,8 +37,8 @@ xkb_symbols "basic" {
     key <AB06> {[ v,         V         ]};
     key <AB07> {[ h,         H         ]};
     key <AB08> {[ slash,     question  ]};
-    key <AB09> {[ period,    less      ]};
-    key <AB10> {[ comma,     greater   ]};
+    key <AB09> {[ period,    greater   ]};
+    key <AB10> {[ comma,     less      ]};
 
     key <AE11> {[     equal,    plus      ]};
     key <AE12> {[ bracketleft, braceleft  ]};
